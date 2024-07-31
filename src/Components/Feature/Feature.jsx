@@ -12,31 +12,27 @@ const Feature = () => {
             </div>
 
             <div className="flex justify-between">
-
-
                 <div className="">
-                    <img className="w-28 mx-auto" src={feature01} alt="" />
+                    <img className="w-28 mx-auto" src={feature01} alt="Image Loading..." />
                     <div className="w-[19rem] text-center mt-5">
                         <h1 className="text-2xl font-manrope font-bold">Scan & Track</h1>
                         <p className="mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                 </div>
                 <div className="">
-                    <img className="w-28 mx-auto" src={feature02} alt="" />
+                    <img className="w-28 mx-auto" src={feature02} alt="Image Loading..." />
                     <div className="w-[19rem] text-center mt-5">
                         <h1 className="text-2xl font-manrope font-bold">Visualise & Analyse</h1>
                         <p className="mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                 </div>
                 <div className="">
-                    <img className="w-28 mx-auto" src={feature03} alt="" />
+                    <img className="w-28 mx-auto" src={feature03} alt="Image Loading..." />
                     <div className="w-[19rem] text-center mt-5">
                         <h1 className="text-2xl font-manrope font-bold">Save with Super Points</h1>
                         <p className="mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                 </div>
-
-
             </div>
         </>
     );
