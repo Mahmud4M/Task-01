@@ -3,6 +3,7 @@ import Banner from "../Banner/Banner";
 import Contact from "../Contact/Contact";
 import Customer from "../Customer/Customer";
 import Feature from "../Feature/Feature";
+import Shape from "../Shape/Shape";
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
                 <Customer />
                 <Contact />
             </div>
+            <Shape />
         </>
     );
 };
