@@ -27,7 +27,7 @@ const Works = () => {
 
                 <div className="mt-28 relative">
                     {/* Line Shape */}
-                    <div className="absolute top-0 left-[30rem] lg:visible hidden">
+                    <div className="absolute top-0 left-[30rem] lg:visible invisible">
                         <div className="relative">
                             <div className="absolute w-[15.5rem] top-[-3.5rem] left-[0rem]">
                                 <img className="w-full" src={line01} alt="" />
@@ -55,7 +55,7 @@ const Works = () => {
                     </div>
 
                     {/* Line Shape */}
-                    <div className="lg:visible hidden">
+                    <div className="lg:visible invisible">
                         <div className="relative">
                             <div className="absolute w-[27rem] top-[-6.5rem] left-[36rem]">
                                 <img className="w-full" src={line02} alt="Image loading..." />
@@ -85,7 +85,7 @@ const Works = () => {
                     </div>
 
                     {/* Line Shape */}
-                    <div className="lg:visible hidden">
+                    <div className="lg:visible invisible">
                         <div className="relative">
                             <div className="absolute w-[27rem] top-[-6.5rem] left-[31rem]">
                                 <img className="w-full" src={line03} alt="Image loading..." />
@@ -113,7 +113,7 @@ const Works = () => {
                     </div>
 
                     {/* Line Shape */}
-                    <div className="lg:visible hidden">
+                    <div className="lg:visible invisible">
                         <div className="relative">
                             <div className="absolute w-[27rem] top-[-6.5rem] left-[36rem]">
                                 <img className="w-full" src={line04} alt="Image loading..." />

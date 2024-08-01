@@ -18,7 +18,7 @@ const Banner = () => {
                         & Shop Smarter.</h1>
                         <button className="btn btn-primary bg-black text-base text-white font-manrope mt-10 px-9 py-2 rounded-full border-none hover:duration-1000">Download Now</button>
                     </div>
-                    <div className="lg:visible hidden">
+                    <div className="lg:visible invisible">
                         <img src={roundshape} alt="Mobile Image" />
                         <img className="absolute top-[18rem] left-[57.5rem]" src={mobile} alt="Mobile Image" />
                     </div>
