@@ -77,7 +77,7 @@ const Works = () => {
                                 <img src={shape04} alt="" />
                             </div>
                             <div className="absolute top-[17rem] left-[4rem]">
-                                <WorkCommon title="Download & Sign Up" descrip="Lorem Ipsum is simply dummy text of the printing and typesetting industry." />
+                                <WorkCommon title="Scan Receipts" descrip="Lorem Ipsum is simply dummy text of the printing and typesetting industry." />
                             </div>
                         </div>
                     </div>
@@ -103,7 +103,7 @@ const Works = () => {
                             <img src={shape05} alt="" />
                         </div>
                         <div className="absolute top-[15rem] left-[15rem]">
-                            <WorkCommon title="Download & Sign Up" descrip="Lorem Ipsum is simply dummy text of the printing and typesetting industry." />
+                            <WorkCommon title="Get AI Insights" descrip="Lorem Ipsum is simply dummy text of the printing and typesetting industry." />
                         </div>
                     </div>
                     <div className="w-1/2 mx-auto">
@@ -134,7 +134,7 @@ const Works = () => {
                             <img src={shape08} alt="" />
                         </div>
                         <div className="absolute top-[17rem] left-[4rem]">
-                            <WorkCommon title="Download & Sign Up" descrip="Lorem Ipsum is simply dummy text of the printing and typesetting industry." />
+                            <WorkCommon title="Plan & Save" descrip="Lorem Ipsum is simply dummy text of the printing and typesetting industry." />
                         </div>
                     </div>
                 </div>

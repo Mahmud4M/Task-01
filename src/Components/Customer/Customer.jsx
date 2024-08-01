@@ -12,18 +12,18 @@ const Customer = () => {
                 <CommonHead title="Our Happy Customer" descrip="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry" />
             </div>
 
-            <div className="mt-5 lg:flex lg:justify-between gap-5 space-y-5">
-                <div>
+            <div className="mt-5 lg:flex lg:justify-between gap-5">
+                <div className="mb-2">
                     <img className="" src={custom01} alt="Image Loading..." />
                 </div>
-                <div>
+                <div className="mb-2">
                     <img className="" src={custom02} alt="Image Loading..." />
                 </div>
-                <div>
+                <div className="mb-2">
                     <img className="" src={custom03} alt="Image Loading..." />
                 </div>
                 <div>
-                    <img className="" src={custom04} alt="Image Loading..." />
+                    <img className="mb-2" src={custom04} alt="Image Loading..." />
                 </div>
             </div>
         </>
