@@ -22,7 +22,7 @@ const Works = () => {
         <>
             <div>
                 <div className="text-center mt-28">
-                    <h1 className="text-5xl text-black font-bold">How It Works</h1>
+                    <h1 className="lg:text-5xl text-4xl text-black font-bold">How It Works</h1>
                 </div>
 
                 <div className="mt-28 relative">

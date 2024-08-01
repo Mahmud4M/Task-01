@@ -15,7 +15,7 @@ const Home = () => {
                 <title>Home</title>
             </Helmet>
             <div>
-                <Banner />
+                {/* <Banner /> */}
             </div>
             <div className="max-w-screen-xl mx-auto space-y-16 mb-10">
                 <Feature />

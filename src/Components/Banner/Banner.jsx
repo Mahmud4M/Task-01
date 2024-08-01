@@ -7,7 +7,7 @@ import shape02 from "../../assets/shape02.png";
 const Banner = () => {
     return (
         <>
-            <div className='w-full bg-center bg-cover bg-no-repeat px-32 py-36 mt-[-5rem]' style={{ backgroundImage: `url(${banner})` }}>
+            <div className='w-full bg-center bg-cover bg-no-repeat lg:px-32 lg:py-36 px-28 py-28 mt-[-5rem]' style={{ backgroundImage: `url(${banner})` }}>
                 <div className="absolute left-0">
                     <img className="w-3/4 h-3/4" src={shape02} alt="Loading" />
                 </div>

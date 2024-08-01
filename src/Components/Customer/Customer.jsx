@@ -12,7 +12,7 @@ const Customer = () => {
                 <CommonHead title="Our Happy Customer" descrip="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry" />
             </div>
 
-            <div className="mt-5 grid lg:grid-cols-4 grid-cols-1 gap-5">
+            <div className="mt-5 grid lg:grid-cols-4 grid-cols-2 gap-5">
                 <div className="mb-2">
                     <img className="" src={custom01} alt="Image Loading..." />
                 </div>
