@@ -1,8 +1,9 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import Logo from "../../assets/logo.png";
 
 
 const Navbar = () => {
+
     return (
         <>
             <div className="navbar bg-base-100 mt-2">
@@ -24,28 +25,30 @@ const Navbar = () => {
                         </div>
                         <ul
                             tabIndex={0}
-                            className="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow text-black text-[16px] font-extrabold">
-                            <li><a>Home</a></li>
-                            <li><a>Features</a></li>
-                            <li><a>How It Works</a></li>
-                            <li><a>Customers</a></li>
-                            <li><a>Contact Us</a></li>
+                            className="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow text-black text-[16px] font-extrabold bg-white">
+                            <li><Link>Home</Link></li>
+                            <li><Link>Features</Link></li>
+                            <li><Link>How It Works</Link></li>
+                            <li><Link>Customers</Link></li>
+                            <li><Link>Contact Us</Link></li>
                         </ul>
                     </div>
-                    <a href="/">
-                        <img className="w-full h-full" src={Logo} alt="Logo" />
-                    </a>
+                    <div className="lg:visible hidden">
+                        <a href="/">
+                            <img className="w-full h-full" src={Logo} alt="Logo" />
+                        </a>
+                    </div>
                 </div>
                 <div className="navbar-end hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 text-[16px] font-medium">
-                        <li><a>Home</a></li>
-                        <li><a>Features</a></li>
-                        <li><a>How It Works</a></li>
-                        <li><a>Customers</a></li>
-                        <li><a>Contact Us</a></li>
+                        <li><Link>Home</Link></li>
+                        <li><Link>Features</Link></li>
+                        <li><Link>How It Works</Link></li>
+                        <li><Link>Customers</Link></li>
+                        <li><Link>Contact Us</Link></li>
                     </ul>
                 </div>
-                <div className="ml-4">
+                <div className="lg:ml-4 ml-32">
                     <button className="btn px-12 text-[16px] bg-[#ff9f1c] rounded-full">Register</button>
                 </div>
             </div>

@@ -3,9 +3,9 @@
 const WorkCommon = ({ title, descrip }) => {
     return (
         <>
-            <div className="w-[22rem]">
-                <h1 className="text-2xl text-black font-bold">{title}</h1>
-                <p className="text-lg mt-5">{descrip}</p>
+            <div className="lg:w-[22rem] w-[15rem]">
+                <h1 className="lg:text-2xl text-lg text-black font-bold">{title}</h1>
+                <p className="text-lg lg:mt-5">{descrip}</p>
             </div>
         </>
     );

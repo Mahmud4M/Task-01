@@ -1,6 +1,5 @@
-// import { Helmet } from "react-helmet-async";
+import { Helmet } from "react-helmet-async";
 import Banner from "../Banner/Banner";
-import Check from "../Check/Check";
 import Contact from "../Contact/Contact";
 import Cover from "../Cover/Cover";
 import Customer from "../Customer/Customer";
@@ -12,19 +11,17 @@ import Works from "../Works/Works";
 const Home = () => {
     return (
         <>
-            {/* <Helmet>
+            <Helmet>
                 <title>Home</title>
-            </Helmet> */}
+            </Helmet>
             <div>
                 <Banner />
             </div>
             <div className="max-w-screen-xl mx-auto space-y-16 mb-10">
                 <Feature />
-
             </div>
             <div>
                 <Works />
-                {/* <Check /> */}
             </div>
             <div className="my-16">
                 <Cover />
