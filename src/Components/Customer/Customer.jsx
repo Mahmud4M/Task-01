@@ -1,5 +1,5 @@
 import CommonHead from "../../Hooks/CommonHead";
-import custom01 from "../../assets/custom02.png"
+import custom01 from "../../assets/custom01.png"
 import custom02 from "../../assets/custom02.png"
 import custom03 from "../../assets/custom03.png"
 import custom04 from "../../assets/custoom04.png"
