@@ -1,0 +1,36 @@
+@media only screen and (min-width: 360px) and (max-width: 576px) {
+
+    .banner {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .banner-text h1 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .btn-one {
+        margin-top: 5px;
+        width: 110px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 13px;
+    }
+
+    .shape-one {
+        width: 12%;
+    }
+
+    .round {
+        width: 130px;
+    }
+
+    .mobile {
+        width: 26%;
+        top: 170px;
+        left: 218px;
+    }
+}

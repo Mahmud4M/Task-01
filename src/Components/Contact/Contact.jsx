@@ -1,13 +1,14 @@
 import { FaUser } from "react-icons/fa";
 import { HiOutlineMail, HiOutlinePhone } from "react-icons/hi";
+import "./Contact.css"
 
 
 const Contact = () => {
     return (
         <>
-            <section className="bg-white">
-                <div className="container px-6 py-12 mx-auto">
-                    <div className="lg:flex p-10 lg:items-center lg:-mx-6">
+            <section className="container bg-white">
+                <div className="px-6 py-12 mx-auto">
+                    <div className="container lg:flex p-10 lg:items-center lg:-mx-6">
                         <div className="lg:w-1/2 lg:mx-6">
                             <h1 className="text-3xl font-bold text-black capitalize lg:text-3xl">
                                 Contact us
@@ -42,7 +43,7 @@ const Contact = () => {
                         </div>
                         <div className="mt-8 lg:w-1/2 lg:mx-6">
                             <div
-                                className="w-full px-8 py-10 mx-auto overflow-hidden bg-[#f0fae0] rounded-xl">
+                                className="form w-full px-8 py-10 mx-auto overflow-hidden bg-[#f0fae0] rounded-xl">
                                 <form className="">
                                     <div className="lg:flex gap-7">
                                         <label className="input input-bordered flex items-center gap-2 mb-5">
@@ -67,7 +68,7 @@ const Contact = () => {
                                     <div className="mt-10">
                                         <textarea className="block w-full h-32 px-5 py-3 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:placeholder-gray-600 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40 border-none" placeholder="Message here..."></textarea>
                                     </div>
-                                    <button className="px-8 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-black rounded-full hover:bg-blue-400 hover:duration-1000 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+                                    <button className="form-button px-8 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-black rounded-full hover:bg-blue-400 hover:duration-1000 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
                                         get in touch
                                     </button>
                                 </form>

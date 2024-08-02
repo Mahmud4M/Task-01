@@ -1,5 +1,6 @@
 import { Link } from "react-scroll";
 import Logo from "../../assets/logo.png";
+import "./NavRes.css";
 
 
 const Navbar = () => {
@@ -33,7 +34,7 @@ const Navbar = () => {
                             <li><Link>Contact Us</Link></li>
                         </ul>
                     </div>
-                    <div className="lg:visible hidden">
+                    <div className="lg:visible invisible">
                         <a href="/">
                             <img className="w-full h-full" src={Logo} alt="Logo" />
                         </a>
@@ -49,7 +50,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="lg:ml-4 ml-32">
-                    <button className="btn px-12 text-[16px] bg-[#ff9f1c] rounded-full">Register</button>
+                    <button className="register btn px-12 text-[16px] bg-[#ff9f1c] rounded-full">Register</button>
                 </div>
             </div>
         </>

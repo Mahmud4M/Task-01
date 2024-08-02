@@ -1,7 +1,90 @@
-
-
 .img-one {
     position: absolute;
     top: 10rem;
     left: 10rem;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 576px) {
+
+    .work-head{
+        margin-top: -5px;
+    }
+
+    .work{
+        font-size: 35px;
+        margin-top: 15px;
+    }
+
+    .work-text {
+        font-size: 10px;
+        margin-top: -40px;
+    }
+
+    .work-text-two {
+        font-size: 10px;
+        margin-top: -45px;
+    }
+
+    .line-shape-one {
+        left: 10px;
+    }
+
+    .shape-two {
+        width: 70px;
+        top: 0px;
+        left: 68px;
+    }
+
+    .shape-three {
+        width: 120px;
+        top: -75px;
+        left: 104px;
+    }
+
+    .shape-four {
+        width: 115px;
+        top: -10px;
+        left: 118px;
+    }
+    .shape-five {
+        width: 70px;
+        top: 45px;
+        left: 200px;
+    }
+
+
+    .shape-six {
+        width: 115px;
+        top: -10px;
+        left: 118px;
+    }
+
+    .shape-nine {
+        width: 70px;
+        top: 45px;
+        left: 80px;
+    }
+
+    .shape-seven {
+        width: 115px;
+        top: -10px;
+        left: 118px;
+    }
+    .shape-eight {
+        width: 70px;
+        top: 45px;
+        left: 200px;
+    }
+
+    .work-common-title{
+        font-size: 10px;
+    }
+
+    .work-common-text{
+        margin-top: -2px;
+        width: 100px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
 }

@@ -1,0 +1,14 @@
+@media only screen and (min-width: 360px) and (max-width: 576px) {
+    .common{
+        margin-top: -20px;
+        width: 110px;
+    }
+    .common-head{
+        font-size: 10px;
+    }
+    .common-text{
+        margin-top: -51px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+}

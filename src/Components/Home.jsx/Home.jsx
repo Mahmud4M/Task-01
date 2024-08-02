@@ -6,6 +6,7 @@ import Customer from "../Customer/Customer";
 import Feature from "../Feature/Feature";
 import Shape from "../Shape/Shape";
 import Works from "../Works/Works";
+import "./Home.css"
 
 
 const Home = () => {
@@ -17,16 +18,16 @@ const Home = () => {
             <div>
                 <Banner />
             </div>
-            <div className="max-w-screen-xl mx-auto space-y-16 mb-10">
+            <div className="feature max-w-screen-xl mx-auto">
                 <Feature />
             </div>
             <div>
                 <Works />
             </div>
-            <div className="my-16">
+            <div>
                 <Cover />
             </div>
-            <div className="max-w-screen-xl mx-auto space-y-16 mb-10">
+            <div className="customer max-w-screen-xl mx-auto">
                 <Customer />
                 <Contact />
             </div>
