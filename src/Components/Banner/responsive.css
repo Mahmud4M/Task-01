@@ -1,5 +1,4 @@
 @media only screen and (min-width: 360px) and (max-width: 576px) {
-
     .banner {
         padding-left: 30px;
         padding-right: 30px;
@@ -32,5 +31,42 @@
         width: 26%;
         top: 170px;
         left: 218px;
+    }
+}
+
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    .banner {
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .banner-text h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .btn-one {
+        margin-top: 25px;
+        width: 130px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 15px;
+    }
+
+    .shape-one {
+        width: 12%;
+    }
+
+    .round {
+        width: 230px;
+    }
+
+    .mobile {
+        width: 20%;
+        top: 194px;
+        left: 498px;
     }
 }

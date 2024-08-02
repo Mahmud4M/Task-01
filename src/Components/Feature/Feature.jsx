@@ -15,22 +15,22 @@ const Feature = () => {
 
             <div className="lg:flex lg:justify-between items-center">
                 <div className="mb-5">
-                    <img className="feature-img lg:w-28 mx-auto" src={feature01} alt="Image Loading..." />
-                    <div className="lg:w-[19rem] w-[19rem] text-center mt-5 mx-auto">
+                    <img className="feature-img-one w-28 mx-auto" src={feature01} alt="Image Loading..." />
+                    <div className="feature-text lg:w-[19rem] w-[19rem] text-center mt-5 mx-auto">
                         <h1 className="text-2xl font-manrope font-bold">Scan & Track</h1>
                         <p className="mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                 </div>
                 <div className="mb-5">
-                    <img className="w-28 mx-auto" src={feature02} alt="Image Loading..." />
-                    <div className="w-[19rem] text-center mt-5 mx-auto">
+                    <img className="feature-img-two w-28 mx-auto" src={feature02} alt="Image Loading..." />
+                    <div className="feature-text w-[19rem] text-center mt-5 mx-auto">
                         <h1 className="text-2xl font-manrope font-bold">Visualise & Analyse</h1>
                         <p className="mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                 </div>
                 <div className="mb-5">
-                    <img className="w-28 mx-auto" src={feature03} alt="Image Loading..." />
-                    <div className="w-[19rem] text-center mt-5 mx-auto">
+                    <img className="feature-img-three w-28 mx-auto" src={feature03} alt="Image Loading..." />
+                    <div className="feature-text w-[19rem] text-center mt-5 mx-auto">
                         <h1 className="text-2xl font-manrope font-bold">Save with Super Points</h1>
                         <p className="mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>

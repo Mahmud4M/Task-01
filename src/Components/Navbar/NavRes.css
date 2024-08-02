@@ -3,5 +3,12 @@
         padding-left: 15px;
         padding-right: 15px;
         font-size: 15px;
+        margin-left: 2px;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    .register-main {
+        margin-left: 198px;
     }
 }

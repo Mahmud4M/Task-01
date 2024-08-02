@@ -6,14 +6,14 @@
         margin-bottom: 50px;
     }
 
-    .title{
+    .title {
         font-size: 35px;
     }
 
-    .descrip{
+    .descrip {
         font-size: 16px;
         font: 10px;
-       
+
     }
 
     .feature {
@@ -21,7 +21,38 @@
         margin-bottom: 50px;
     }
 
-    .feature-img {
+    .feature-img-one {
         width: 110px;
+    }
+}
+
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    .feature-img-one {
+        width: 200px;
+    }
+
+    .feature-img-two {
+        margin-top: 80px;
+        width: 200px;
+    }
+
+    .feature-img-three {
+        margin-top: 80px;
+        width: 200px;
+    }
+
+    .feature-text {
+        width: 630px;
+    }
+
+    .feature-text h1 {
+        margin-top: 40px;
+        font-size: 35px;
+    }
+
+    .feature-text p {
+        margin-top: 30px;
+        font-size: 20px;
     }
 }

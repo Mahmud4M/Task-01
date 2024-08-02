@@ -29,6 +29,10 @@
         left: 10px;
     }
 
+    .line-shape {
+        margin-top: 70px;
+    }
+
     .shape-two {
         width: 70px;
         top: 0px;
@@ -36,9 +40,9 @@
     }
 
     .shape-three {
-        width: 120px;
-        top: -75px;
-        left: 104px;
+        width: 81px;
+        top: -49px;
+        left: 105px;
     }
 
     .shape-four {
@@ -87,4 +91,87 @@
         line-height: 12px;
     }
 
+}
+
+
+@media only screen and (min-width: 575px) and (max-width: 768px) {
+    .work-head{
+        margin-top: -5px;
+    }
+
+    .work{
+        font-size: 50px;
+        margin-top: 80px;
+    }
+
+    .work-text {
+        font-size: 10px;
+        margin-top: 20px;
+        left: 60px;
+    }
+
+    .work-text-two {
+        margin-top: 30px;
+    }
+
+    .work-common-title{
+        font-size: 20px;
+    }
+
+    .work-common-text{
+        margin-top: -2px;
+        width: 250px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .line-shape-one {
+        left: 10px;
+    }
+
+    .shape-two {
+        width: 115px;
+        top: 28px;
+        left: 155px;
+    }
+
+    .shape-three {
+        width: 160px;
+        top: -70px;
+        left: 215px;
+    }
+
+    .shape-four {
+        width: 218px;
+        top: -35px;
+        left: 290px;
+    }
+    .shape-five {
+        width: 115px;
+        top: 70px;
+        left: 450px;
+    }
+
+    .shape-six {
+        width: 211px;
+        top: -47px;
+        left: 240px;
+    }
+
+    .shape-nine {
+        width: 115px;
+        top: 55px;
+        left: 178px;
+    }
+
+    .shape-seven {
+        width: 220px;
+        top: -35px;
+        left: 287px;
+    }
+    .shape-eight {
+        width: 115px;
+        top: 75px;
+        left: 450px;
+    }
 }

@@ -2,12 +2,13 @@ import custom01 from "../../assets/custom01.png"
 import custom02 from "../../assets/custom02.png"
 import custom03 from "../../assets/custom03.png"
 import custom04 from "../../assets/custoom04.png"
+import "./Customer.css"
 
 const Customer = () => {
     return (
         <>
             <div className="common-head w-[40rem] mx-auto text-center mt-32 mb-20">
-                <h1 className="title text-5xl text-black font-bold">Our Happy Customer</h1>
+                <h1 className="title-cus text-5xl text-black font-bold">Our Happy Customer</h1>
                 <p className="descrip mt-5 text-lg mx-auto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry</p>
             </div>
 

@@ -13,7 +13,7 @@ const Contact = () => {
                             <h1 className="text-3xl font-bold text-black capitalize lg:text-3xl">
                                 Contact us
                             </h1>
-                            <p className="mt-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis dolores corporis nihil incidunt molestiae accusantium a aliquid rem voluptates facere.</p>
+                            <p className="text mt-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis dolores corporis nihil incidunt molestiae accusantium a aliquid rem voluptates facere.</p>
                             <div className="mt-6 space-y-8 md:mt-16">
                                 <p className="flex items-start -mx-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8 p-1 mx-2 bg-[#6caf46] text-white rounded-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">

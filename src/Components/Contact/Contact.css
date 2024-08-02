@@ -21,3 +21,9 @@
         padding-bottom: 2px;
     }
 }
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    .text {
+        font-size: 20px;
+    }
+}

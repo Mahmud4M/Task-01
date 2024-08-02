@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <>
             <div className="footer-shape p-5 mt-[-27px]">
-                <img className="footer-img w-2/3 mx-auto" src={shape04} alt="" />
+                <img className="footer-img w-2/3 mx-auto" src={shape04} alt="Image loading..." />
             </div>
             <div className='w-full bg-center bg-cover bg-no-repeat p-20 mt-[-27px]' style={{ backgroundImage: `url(${shape})` }}>
                 <div>

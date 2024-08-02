@@ -49,7 +49,7 @@ const Navbar = () => {
                         <li><Link>Contact Us</Link></li>
                     </ul>
                 </div>
-                <div className="lg:ml-4 ml-32">
+                <div className="register-main lg:ml-4 ml-32">
                     <button className="register btn px-12 text-[16px] bg-[#ff9f1c] rounded-full">Register</button>
                 </div>
             </div>

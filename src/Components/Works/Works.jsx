@@ -25,7 +25,7 @@ const Works = () => {
                 <div className="work-head text-center mt-28">
                     <h1 className="work lg:text-5xl text-4xl text-black font-bold">How It Works</h1>
                 </div>
-                <div className="mt-28 relative">
+                <div className="line-shape mt-28 relative">
                     {/* Line Shape */}
                     <div className="line-shape-one absolute top-0 left-[30rem]">
                         <div className="relative">
@@ -77,7 +77,7 @@ const Works = () => {
                                 <div>
                                     <img src={shape04} alt="Image loading..." />
                                 </div>
-                                <div className="work-text-two absolute lg:top-[17rem] lg:left-[4rem] top-[4.75rem] left-9">
+                                <div className="work-text-two w-56 absolute lg:top-[17rem] lg:left-[4rem] top-[4.75rem] left-9">
                                     <h1 className="work-common-title text-2xl text-black font-bold">Scan Receipts</h1>
                                     <p className="work-common-text w-[22rem] mt-5 text-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                 </div>
