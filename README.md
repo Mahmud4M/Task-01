@@ -11,7 +11,7 @@ GitHub Link : https://github.com/Mahmud4M/Task-01
 
 ** Build With
 1. Html
-2. 2. Tailwind Css
+2. Tailwind Css
 3. React
 4. Firebase
 
