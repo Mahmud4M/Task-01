@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 
 const WorkCommon = ({ title, descrip }) => {
     return (
@@ -10,5 +10,10 @@ const WorkCommon = ({ title, descrip }) => {
         </>
     );
 };
+
+WorkCommon.propTypes = {
+    title: PropTypes.string,
+    descrip: PropTypes.string,
+}
 
 export default WorkCommon;

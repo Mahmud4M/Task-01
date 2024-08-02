@@ -1,5 +1,4 @@
 import { FaUser } from "react-icons/fa";
-import { FaVoicemail } from "react-icons/fa6";
 import { HiOutlineMail, HiOutlinePhone } from "react-icons/hi";
 
 
@@ -45,28 +44,28 @@ const Contact = () => {
                             <div
                                 className="w-full px-8 py-10 mx-auto overflow-hidden bg-[#f0fae0] rounded-xl">
                                 <form className="">
-                                    <div className="flex gap-7">
-                                        <label className="input input-bordered flex items-center gap-2">
+                                    <div className="lg:flex gap-7">
+                                        <label className="input input-bordered flex items-center gap-2 mb-5">
                                             <div className="flex items-center">
                                                 <FaUser />
-                                                <input type="text" placeholder="Name" className="block w-full px-5 py-3 text-gray-700 placeholder-gray-400 bg-white rounded-md dark:placeholder-gray-600  dark:text-gray-300 dark:border-gray-700 focus:outline-none focus:ring focus:ring-opacity-40 border-none" />
+                                                <input type="text" placeholder="Name" className="block w-full px-5 py-3 text-gray-700 placeholder-gray-400 bg-white border border-gray-500 rounded-md dark:placeholder-gray-600  dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 border-none" />
                                             </div>
                                         </label>
                                         <label className="input input-bordered flex items-center gap-2">
                                             <div className="flex items-center">
                                                 <HiOutlineMail className="text-xl" />
-                                                <input type="email" placeholder="Email Address" className="block w-full px-5 py-3 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600  dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40 border-none" />
+                                                <input type="email" placeholder="Email Address" className="block w-full px-5 py-3 text-gray-700 placeholder-gray-400 bg-white border border-gray-500 rounded-md dark:placeholder-gray-600  dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 border-none" />
                                             </div>
                                         </label>
                                     </div>
                                     <div className="mt-6">
-                                        <label className="input input-bordered flex items-center">
+                                        <label className="input flex items-center">
                                             <HiOutlinePhone className="text-lg" />
-                                            <input type="text" placeholder="Phone" className="block w-full px-5 py-3 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40 border-none" />
+                                            <input type="text" placeholder="Phone" className="block w-full px-5 py-3 text-gray-700 placeholder-gray-400 bg-white border border-gray-500 rounded-md dark:placeholder-gray-600  dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 border-none" />
                                         </label>
                                     </div>
-                                    <div className="mt-6">
-                                            <textarea className="block w-full h-32 px-5 py-3 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:placeholder-gray-600 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40 border-none" placeholder="Message here..."></textarea>
+                                    <div className="mt-10">
+                                        <textarea className="block w-full h-32 px-5 py-3 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:placeholder-gray-600 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40 border-none" placeholder="Message here..."></textarea>
                                     </div>
                                     <button className="px-8 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-black rounded-full hover:bg-blue-400 hover:duration-1000 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
                                         get in touch

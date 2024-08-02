@@ -10,7 +10,6 @@ const Feature = () => {
             <div className="m-24">
                 <CommonHead title="What we Feature" descrip="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry" />
             </div>
-
             <div className="lg:flex lg:justify-between items-center">
                 <div className="mb-5">
                     <img className="lg:w-28 mx-auto" src={feature01} alt="Image Loading..." />

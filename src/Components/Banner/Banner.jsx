@@ -14,9 +14,9 @@ const Banner = () => {
 
                 <div className="lg:flex lg:justify-between lg:items-center space-y-5">
                     <div className="">
-                        <h1 className="text-white text-7xl leading-[110px] font-manrope font-bold">Track, Save <br />
+                        <h1 className="text-white lg:text-7xl text-5xl lg:leading-[110px] leading-[60px]font-manrope font-bold">Track, Save <br />
                         & Shop Smarter.</h1>
-                        <button className="btn btn-primary bg-black text-base text-white font-manrope mt-10 px-9 py-2 rounded-full border-none hover:duration-1000">Download Now</button>
+                        <button className="btn btn-primary bg-black text-base text-white font-manrope mt-10 lg:px-9 px-5 py-2 rounded-full border-none hover:duration-1000">Download Now</button>
                     </div>
                     <div className="lg:visible invisible">
                         <img src={roundshape} alt="Mobile Image" />

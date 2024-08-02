@@ -24,7 +24,6 @@ const Works = () => {
                 <div className="text-center mt-28">
                     <h1 className="lg:text-5xl text-4xl text-black font-bold">How It Works</h1>
                 </div>
-
                 <div className="mt-28 relative">
                     {/* Line Shape */}
                     <div className="absolute top-0 left-[30rem] lg:visible invisible">
@@ -39,7 +38,6 @@ const Works = () => {
                             </div>
                         </div>
                     </div>
-
                     <div className="flex justify-between items-center">
                         <div className="relative w-2/5 -z-10">
                             <div className="">
@@ -53,7 +51,6 @@ const Works = () => {
                             <img className="" src={shape02} alt="Image loading..." />
                         </div>
                     </div>
-
                     {/* Line Shape */}
                     <div className="lg:visible invisible">
                         <div className="relative">
@@ -67,7 +64,6 @@ const Works = () => {
                             </div>
                         </div>
                     </div>
-
                     <div className="flex justify-between items-center mt-10">
                         <div className="w-1/3 mx-auto">
                             <img className="" src={shape03} alt="Image loading..." />
@@ -83,7 +79,6 @@ const Works = () => {
                             </div>
                         </div>
                     </div>
-
                     {/* Line Shape */}
                     <div className="lg:visible invisible">
                         <div className="relative">
@@ -93,11 +88,10 @@ const Works = () => {
                         </div>
                         <div className="relative">
                             <div className="absolute w-[10rem] top-[7.5rem] left-[26rem]">
-                                <img src={Three} alt="" />
+                                <img src={Three} alt="Image loading..." />
                             </div>
                         </div>
                     </div>
-
                     <div className="flex justify-between items-center mt-10">
                         <div className="relative w-2/5 -z-10">
                             <div className="">
@@ -111,7 +105,6 @@ const Works = () => {
                             <img className="" src={shape06} alt="Image loading..." />
                         </div>
                     </div>
-
                     {/* Line Shape */}
                     <div className="lg:visible invisible">
                         <div className="relative">
@@ -121,18 +114,17 @@ const Works = () => {
                         </div>
                         <div className="relative">
                             <div className="absolute w-[10rem] top-[7.5rem] left-[58.5rem]">
-                                <img src={Four} alt="" />
+                                <img src={Four} alt="Image loading..." />
                             </div>
                         </div>
                     </div>
-
                     <div className="flex justify-between items-center mt-10">
                         <div className="w-1/3 mx-auto">
                             <img className="" src={shape07} alt="Image loading..." />
                         </div>
                         <div className="relative w-2/5 -z-10">
                             <div className="">
-                                <img src={shape08} alt="" />
+                                <img src={shape08} alt="Image loading..." />
                             </div>
                             <div className="absolute lg:top-[17rem] lg:left-[4rem] top-[4.75rem] left-9">
                                 <WorkCommon title="Plan & Save" descrip="Lorem Ipsum is simply dummy text of the printing and typesetting industry." />
@@ -141,7 +133,6 @@ const Works = () => {
                     </div>
                 </div>
             </div>
-
         </>
     );
 };
