@@ -12,8 +12,8 @@ const Footer = () => {
             </div>
             <div className='w-full bg-center bg-cover bg-no-repeat p-20 mt-[-27px]' style={{ backgroundImage: `url(${shape})` }}>
                 <div>
-                    <div className="flex justify-between items-center">
-                        <img className="footer-img-two" src={footerLogo} alt="Image loading..." />
+                    <div className="footer-img-two">
+                        <img className="" src={footerLogo} alt="Image loading..." />
                     </div>
                 </div>
             </div>
