@@ -1,5 +1,26 @@
 @media only screen and (min-width: 577px) and (max-width: 768px) {
+
+    .cover {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     .cover-text {
-        width: 540px;
+        width: 200px;
+    }
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+
+    .cover {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cover-text {
+        width: 550px;
     }
 }

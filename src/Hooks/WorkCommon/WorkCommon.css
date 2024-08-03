@@ -12,3 +12,19 @@
         line-height: 12px;
     }
 }
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    .common{
+        margin-top: 108px;
+        width: 250px;
+        margin-left: 85px;
+    }
+    .common-head{
+        font-size: 22px;
+    }
+    .common-text{
+        margin-top: 10px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+}

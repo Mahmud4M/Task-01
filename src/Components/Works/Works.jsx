@@ -21,7 +21,7 @@ import "./Works.css";
 const Works = () => {
     return (
         <>
-            <div>
+            <div className="works-main">
                 <div className="work-head text-center mt-28">
                     <h1 className="work lg:text-5xl text-4xl text-black font-bold">How It Works</h1>
                 </div>

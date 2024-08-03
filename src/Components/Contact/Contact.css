@@ -3,17 +3,19 @@
     .container {
         padding: 5px;
     }
+
     .form {
         padding-top: 10px;
         padding-bottom: 10px;
         padding-right: 15px;
         padding-left: 15px;
     }
-    .text-area{
+
+    .text-area {
         height: 20;
     }
 
-    .form-button{
+    .form-button {
         font-size: 10px;
         padding-right: 7px;
         padding-left: 7px;
@@ -25,5 +27,19 @@
 @media only screen and (min-width: 577px) and (max-width: 768px) {
     .text {
         font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .form-main {
+        width: 875px;
+    }
+
+    .text {
+        font-size: 20px;
+    }
+
+    .details {
+        margin-bottom: 70px;
     }
 }

@@ -1,7 +1,6 @@
 import feature01 from "../../assets/feature01.png";
 import feature02 from "../../assets/feature02.png";
 import feature03 from "../../assets/feature03.png";
-import CommonHead from "../../Hooks/CommonHead/CommonHead";
 import "./Feature.css";
 
 

@@ -14,7 +14,7 @@ const Contact = () => {
                                 Contact us
                             </h1>
                             <p className="text mt-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis dolores corporis nihil incidunt molestiae accusantium a aliquid rem voluptates facere.</p>
-                            <div className="mt-6 space-y-8 md:mt-16">
+                            <div className="details mt-6 space-y-8 md:mt-16">
                                 <p className="flex items-start -mx-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8 p-1 mx-2 bg-[#6caf46] text-white rounded-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
@@ -41,7 +41,7 @@ const Contact = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="mt-8 lg:w-1/2 lg:mx-6">
+                        <div className="form-main mt-8 lg:w-1/2 lg:mx-6">
                             <div
                                 className="form w-full px-8 py-10 mx-auto overflow-hidden bg-[#f0fae0] rounded-xl">
                                 <form className="">
@@ -66,7 +66,7 @@ const Contact = () => {
                                         </label>
                                     </div>
                                     <div className="mt-10">
-                                        <textarea className="block w-full h-32 px-5 py-3 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:placeholder-gray-600 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40 border-none" placeholder="Message here..."></textarea>
+                                        <textarea className="block w-full h-32 px-5 py-3 text-gray-700 placeholder-gray-400 bg-white border rounded-md  dark:placeholder-gray-600 dark:text-gray-300 focus:outline-none focus:ring focus:ring-opacity-40 border-none" placeholder="Message here..."></textarea>
                                     </div>
                                     <button className="form-button px-8 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-black rounded-full hover:bg-blue-400 hover:duration-1000 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
                                         get in touch

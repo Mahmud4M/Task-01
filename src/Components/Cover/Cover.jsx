@@ -4,7 +4,7 @@ import "./Cover.css";
 const Cover = () => {
     return (
         <>
-            <div className="p-10 lg:flex lg:justify-evenly items-center bg-[#66ab3e]">
+            <div className="cover p-10 lg:flex lg:justify-evenly items-center bg-[#66ab3e]">
                 <div className="mb-5 mt-5 mx-auto">
                     <img src={target} alt="Image loading..." />
                 </div>

@@ -34,13 +34,13 @@ const Navbar = () => {
                             <li><Link>Contact Us</Link></li>
                         </ul>
                     </div>
-                    <div className="lg:visible invisible">
+                    <div className="logo lg:visible invisible">
                         <a href="/">
-                            <img className="w-full h-full" src={Logo} alt="Logo" />
+                            <img className="w-full h-full" src={Logo} alt="Logo loading..." />
                         </a>
                     </div>
                 </div>
-                <div className="navbar-end hidden lg:flex">
+                <div className="logo-short navbar-end hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 text-[16px] font-medium">
                         <li><Link>Home</Link></li>
                         <li><Link>Features</Link></li>
